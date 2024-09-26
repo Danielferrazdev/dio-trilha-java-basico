@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "testeGenericsExemploList",
+            "request": "launch",
+            "mainClass": "testeGenericsExemploList",
+            "projectName": "execercicios-java_2b52c5fa"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
