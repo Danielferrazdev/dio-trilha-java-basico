@@ -47,7 +47,6 @@ public class CarrinhoDeCompras {
 
     public static void main(String[] args) {
         CarrinhoDeCompras carrinhoDeCompras = new CarrinhoDeCompras();
-        // System.out.println("");
 
         // Adicionando itens ao carrinho
         carrinhoDeCompras.adicionarItem("Lápis", 2d, 3);
@@ -57,9 +56,9 @@ public class CarrinhoDeCompras {
 
         // Retornando os itens do carrinho
         System.out.println("Informando todos os itens do carrinho ...:" + carrinhoDeCompras.itemList);
-        
+
         // retornar com o valor total
-        double valorTotal=carrinhoDeCompras.calcularValorTotal();
+        double valorTotal = carrinhoDeCompras.calcularValorTotal();
         System.out.println("O Valor do carrinho é R$ ..: " + valorTotal);
     }
 }
